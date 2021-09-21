@@ -1,0 +1,126 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    background-image: url(/img/photo.jpg);
+    background-size: cover;
+    background-position: top;
+    font-family: sans-serif;
+}
+
+.menu-bar
+{
+    background:rgb(65, 50, 197);
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.menu-bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: rgb(233, 239, 241);
+
+}
+
+.menu-bar ul li
+{
+    width: 150px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color: rgb(233, 239, 241);
+}
+
+.menu-bar .fa
+{
+    margin-left: 8px;
+}
+
+.sub-menu-1
+{
+    display: none;
+}
+
+.menu-bar ul li:hover .sub-menu-1
+{
+    display: block;
+    position: absolute;
+    background: rgb(65, 50, 197);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+    display: block;
+    margin: 10px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    border-radius: o;
+    text-align: left;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child
+{
+    border-bottom: none;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover
+{
+    color: #b2ff00;
+}
+
+h1
+{
+    text-align:center;
+    color:rgb(233, 239, 241);
+    background-color:rgb(65, 50, 197);
+    border-color: black;
+    border-width: 5px;
+    border-style: groove;
+    border-width: 10px;
+    margin-left: 550px;
+    margin-right: 550px;
+}
+
+p
+{
+    text-align: center;
+    color: rgb(251, 250, 252);
+    margin-left: 400px;
+    margin-right: 400px;
+    font-size:x-large;
+    background-color: rgb(89, 42, 165);
+    border-color: black;
+    border-width: 5px;
+    border-style: groove;
+    border-width: 10px;
+    margin-left: 550px;
+    margin-right: 550px;
+}
+
+iframe
+{
+    margin-left: 500px;
+    margin-right: 500px;
+    border-color: black;
+    border-width: 5px;
+    border-style: groove;
+    border-width: 10px;
+    margin-left: 650px;
+    margin-right: 650px;
+}
