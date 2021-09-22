@@ -101,7 +101,7 @@ h1
     text-align:center;
     color:rgb(233, 239, 241);
     background-color:rgb(65, 50, 197);
-    border-color: rgb(98, 98, 105)
+    border-color: rgb(98, 98, 105);
     border-width: 5px;
     border-style: groove;
     border-width: 10px;
@@ -116,8 +116,8 @@ p
     margin-left: 400px;
     margin-right: 400px;
     font-size: x-large;
-    background-color: rgb(98, 98, 105)
-    border-color: black;
+    background-color: rgb(65, 50, 197);
+    border-color: rgb(98, 98, 105);
     border-width: 5px;
     border-style: groove;
     border-width: 10px;
