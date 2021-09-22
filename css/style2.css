@@ -6,7 +6,7 @@
 
 body
 {
-    background-image: url(https://dillon3535.github.io/webpage/img/photo.jpg);
+    background-image: url("https://dillon3535.github.io/webpage/img/photo.jpg");
     background-size: cover;
     background-position: top;
     font-family: sans-serif;
